@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Aqeel | Flutter Developer</title>
+  <meta name="description"
+    content="Professional Portfolio of Muhammad Aqeel - Specialist in Flutter & Modern UI development.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="src/style.css">
+
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header id="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">AQEEL<span>.</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline hide-mobile" style="padding: 10px 24px;">Hire Me</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge animate__animated animate__fadeIn">Built for the future of mobile</span>
+          <h1 class="hero-title animate__animated animate__fadeInUp">
+            Muhammad <span class="yellow-text">Aqeel.</span>
+          </h1>
+          <p class="hero-p animate__animated animate__fadeInUp animate__delay-1s">
+            Specialist Flutter Developer crafting high-performance, maintainable cross-platform applications with
+            butter-smooth UIs.
+          </p>
+          <div class="hero-btns animate__animated animate__fadeInUp animate__delay-2s">
+            <a href="#contact" class="btn btn-yellow">Hire Me Now</a>
+            <a href="public/cv.pdf" download="Muhammad_Aqeel_Resume.pdf" class="btn btn-outline">
+              Download CV <i class="fas fa-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual animate__animated animate__zoomIn">
+          <div class="image-mask">
+            <img src="public/aqeel.jpg" alt="Muhammad Aqeel Professional Headshot" class="hero-img">
+          </div>
+          <div class="float-card floating">
+            <h4>1+ Year</h4>
+            <p>Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bento Summary Section -->
+    <section id="about" class="section">
+      <div class="container bento-grid">
+        <div class="bento-item summary reveal">
+          <h3>The Professional Summary</h3>
+          <p>Passionate Flutter Developer with expertise in GetX architecture. I focus on creating scalable
+            architectures and seamless user experiences. My goal is to bridge the gap between high-fidelity designs and
+            production-ready code.</p>
+        </div>
+        <div class="bento-item skills-bento reveal-right">
+          <span class="tag">Flutter</span>
+          <span class="tag">Dart</span>
+          <span class="tag">GetX</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">Hive DB</span>
+          <span class="tag">C++ OOP</span>
+          <span class="tag">UI/UX</span>
+          <span class="tag">Git</span>
+          <span class="tag">Figma</span>
+        </div>
+        <div class="bento-item reveal delay-1">
+          <h4>Experience</h4>
+          <p style="margin-top: 10px; color: var(--text-dim);">Freelance Flutter Developer (2024-Present). Built 3+
+            major UI/Auth prototypes with GetX and Firebase.</p>
+        </div>
+        <div class="bento-item reveal delay-2">
+          <h4>Mobile Development</h4>
+          <p style="margin-top: 10px; color: var(--text-dim);">1+ Year of building production-ready apps using Flutter
+            and Dart. Specialist in state management and performance optimization.</p>
+        </div>
+        <div class="bento-item reveal delay-3">
+          <h4>UI/UX Specialist</h4>
+          <p style="margin-top: 10px; color: var(--text-dim);">1+ Year of crafting high-fidelity design prototypes in
+            Figma and translating them into pixel-perfect mobile interfaces.</p>
+        </div>
+        <div class="bento-item reveal delay-4">
+          <h4>Education</h4>
+          <p style="margin-top: 10px; color: var(--text-dim);">BS Software Engineering<br>Riphah International
+            University (2023-Present)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div style="margin-bottom: 60px;" class="reveal">
+          <h2 style="font-size: 3rem;">Featured Work</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card reveal-left">
+            <div class="p-img">
+              <img src="https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&q=80&w=1000"
+                alt="TalkUp Project">
+            </div>
+            <div class="p-content">
+              <h4>TalkUp Chat</h4>
+              <p>Real-time messaging with Firebase & GetX.</p>
+              <a href="https://github.com/IM-AQEEL" target="_blank" class="accent-text">View Github <i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="project-card reveal-right">
+            <div class="p-img">
+              <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&q=80&w=1000"
+                alt="Transport Project">
+            </div>
+            <div class="p-content">
+              <h4>Transport System</h4>
+              <p>Dynamic dashboard with custom widgets.</p>
+              <a href="https://github.com/IM-AQEEL" target="_blank" class="accent-text">View Github <i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="f-title reveal-left">
+            <h2>Ready to build your next mobile app?</h2>
+            <p style="color: var(--text-dim); margin-bottom: 2rem;">Let's collaborate and create something beautiful.
+              I'm available for freelance projects and full-time opportunities.</p>
+
+            <div class="contact-info">
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>itsaqeelawan@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-location-dot"></i>
+                <span>Pakistan</span>
+              </div>
+            </div>
+
+            <div class="f-links">
+              <a href="https://github.com/IM-AQEEL" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/muhammad-aqeel-3582a7299" target="_blank" title="LinkedIn"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.fiverr.com/mohammadaqee237" target="_blank" title="Fiverr"><i
+                  class="fas fa-briefcase"></i></a>
+              <a href="https://www.instagram.com/m.aqeel31/" target="_blank" title="Instagram"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-form-container reveal-right">
+            <!-- Professional Background Submission (ZERO Redirects) -->
+            <form class="contact-form" id="portfolio-form" action="https://formspree.io/f/mqaeedlo" method="POST">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn btn-yellow w-full">Send Message <i
+                  class="fas fa-paper-plane"></i></button>
+              <p id="form-status" style="margin-top: 15px; font-size: 0.9rem;"></p>
+
+              <!-- <div
+                style="margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--glass-border); text-align: center;">
+                <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 10px;">Want to email me directly?
+                </p>
+                <a href="mailto:itsaqeelawan@gmail.com?subject=Hiring Inquiry" class="accent-text"
+                  style="font-weight: 600;">
+                 
+                </a>
+              </div> -->
+            </form>
+          </div>
+        </div>
+        <div style="margin-top: 80px; text-align: center; color: var(--text-dim); font-size: 0.9rem;">
+          &copy; 2025 Muhammad Aqeel. All rights reserved.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="src/main.js"></script>
+</body>
+
+</html>
